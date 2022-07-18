@@ -1,5 +1,5 @@
 # VeeamDemoTests
-Created wih Cucumber Framework.Consists of 5 user stories;
+Created wih Cucumber Framework.Consists of 5 user stories; @regression
 
 @US_1001 : As a user I want to navigate to all main and sub-menu items. @smoke
 
