@@ -1,0 +1,14 @@
+net\veeam\utilities\ConfigurationReader.class
+net\veeam\pages\MainPage.class
+net\veeam\pages\SolutionsPage.class
+net\veeam\runners\FailedTestRunner.class
+net\veeam\stepdefinations\CompanyLeadership_Defs.class
+net\veeam\stepdefinations\Solutions_Defs.class
+net\veeam\pages\CompanyLeadershipPage.class
+net\veeam\utilities\Driver.class
+net\veeam\utilities\ExcelUtil.class
+net\veeam\runners\CukesRunner.class
+net\veeam\stepdefinations\Mainpage_Defs.class
+net\veeam\stepdefinations\Hooks.class
+net\veeam\pages\BasePage.class
+net\veeam\utilities\BrowserUtils.class

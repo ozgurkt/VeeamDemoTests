@@ -1,0 +1,2610 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-18T21:23:37.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4723929300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Is \"Anand Eswaran\" in the list",
+        "description": "",
+        "id": "management-team-page-function-test;is-\"anand-eswaran\"-in-the-list",
+        "after": [
+          {
+            "result": {
+              "duration": 1204073100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4130484600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4737297800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigates to \"Company\" \"Leadership Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Company\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Leadership Team\"",
+                  "offset": 28
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20835200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify actual title is \"About Veeam Management Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About Veeam Management Team\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8490000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actualURL is \"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53763500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify leadership members are 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_leadership_members_are(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2137366000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify \"Chief Executive Officer\" is \"Anand Eswaran\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chief Executive Officer\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"Anand Eswaran\"",
+                  "offset": 36
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1398507900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify \"Anand Eswaran\" Linkedin link is active",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anand Eswaran\"",
+                  "offset": 7
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_Linkedin_link_is_active(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:23:56.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1795185100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Is \"Matthew Bishop\" in the list",
+        "description": "",
+        "id": "management-team-page-function-test;is-\"matthew-bishop\"-in-the-list",
+        "after": [
+          {
+            "result": {
+              "duration": 408208900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937918700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4702217100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User navigates to \"Company\" \"Leadership Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Company\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Leadership Team\"",
+                  "offset": 28
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10417600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify actual title is \"About Veeam Management Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About Veeam Management Team\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8267100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify actualURL is \"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27360500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify leadership members are 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_leadership_members_are(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2144971500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Verify \"Chief Operating Officer\" is \"Matthew Bishop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chief Operating Officer\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"Matthew Bishop\"",
+                  "offset": 36
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1938032500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Verify \"Matthew Bishop\" Linkedin link is active",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Matthew Bishop\"",
+                  "offset": 7
+                }
+              ],
+              "location": "net.veeam.stepdefinations.CompanyLeadership_Defs.verify_Linkedin_link_is_active(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1003"
+          }
+        ]
+      }
+    ],
+    "name": "Management Team Page Function Test",
+    "description": "",
+    "id": "management-team-page-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/CompanyLeadership.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-18T21:24:10.270Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1357193500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Main and subMenu Items",
+        "description": "",
+        "id": "mainpage-function-test;main-and-submenu-items;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 370587900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2984525700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 705610000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see following options on Main Navigation Bar",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userShouldSeeFollowingOptionsOnNavigationBar(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Products"
+                ]
+              },
+              {
+                "cells": [
+                  "Solutions"
+                ]
+              },
+              {
+                "cells": [
+                  "Resources"
+                ]
+              },
+              {
+                "cells": [
+                  "Partners"
+                ]
+              },
+              {
+                "cells": [
+                  "Company"
+                ]
+              },
+              {
+                "cells": [
+                  "How To Buy"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76934200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Mainmenu Options count is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 33
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifySubmenuItemsAreExpectedWithAmount(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11981172800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify submenu items are as Expected : from ExcelSheet",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyItemsNamesAreAsExpected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5159173700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to \"Solutions\" \"Backup Modernization\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Backup Modernization\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6921800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify actual title is \"Backup and Recovery solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Backup and Recovery solutions\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6393200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-backup-recovery.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-backup-recovery.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1001"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:24:32.958Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1141130300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Main and subMenu Items",
+        "description": "",
+        "id": "mainpage-function-test;main-and-submenu-items;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 288089900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2975193600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423877000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see following options on Main Navigation Bar",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userShouldSeeFollowingOptionsOnNavigationBar(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Products"
+                ]
+              },
+              {
+                "cells": [
+                  "Solutions"
+                ]
+              },
+              {
+                "cells": [
+                  "Resources"
+                ]
+              },
+              {
+                "cells": [
+                  "Partners"
+                ]
+              },
+              {
+                "cells": [
+                  "Company"
+                ]
+              },
+              {
+                "cells": [
+                  "How To Buy"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95658800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Mainmenu Options count is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 33
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifySubmenuItemsAreExpectedWithAmount(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10298314900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify submenu items are as Expected : from ExcelSheet",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyItemsNamesAreAsExpected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4679554100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to \"Resources\" \"White Papers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Resources\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"White Papers\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18384700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify actual title is \"Veeam: Free Virtualization White Papers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam: Free Virtualization White Papers\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9491100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify actualURL is \"https://www.veeam.com/whitepapers.html?ad\u003dmenu-resources\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/whitepapers.html?ad\u003dmenu-resources\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1001"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:24:52.900Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1124320000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Main and subMenu Items",
+        "description": "",
+        "id": "mainpage-function-test;main-and-submenu-items;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 288920100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2979499200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598825400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see following options on Main Navigation Bar",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userShouldSeeFollowingOptionsOnNavigationBar(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Products"
+                ]
+              },
+              {
+                "cells": [
+                  "Solutions"
+                ]
+              },
+              {
+                "cells": [
+                  "Resources"
+                ]
+              },
+              {
+                "cells": [
+                  "Partners"
+                ]
+              },
+              {
+                "cells": [
+                  "Company"
+                ]
+              },
+              {
+                "cells": [
+                  "How To Buy"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54235900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Mainmenu Options count is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 33
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifySubmenuItemsAreExpectedWithAmount(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10730724300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify submenu items are as Expected : from ExcelSheet",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyItemsNamesAreAsExpected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5217529200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to \"Partners\" \"Value-Added Resellers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Partners\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Value-Added Resellers\"",
+                  "offset": 29
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7366900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify actual title is \"Veeam Value-Added Reseller Program – Your Success is Our Mission\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Value-Added Reseller Program – Your Success is Our Mission\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6472000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify actualURL is \"https://www.veeam.com/propartner.html?ad\u003dmenu-partners\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/propartner.html?ad\u003dmenu-partners\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1001"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:25:13.919Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1269152100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Main and subMenu Items",
+        "description": "",
+        "id": "mainpage-function-test;main-and-submenu-items;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 302579200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3138776300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389111700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see following options on Main Navigation Bar",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userShouldSeeFollowingOptionsOnNavigationBar(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Products"
+                ]
+              },
+              {
+                "cells": [
+                  "Solutions"
+                ]
+              },
+              {
+                "cells": [
+                  "Resources"
+                ]
+              },
+              {
+                "cells": [
+                  "Partners"
+                ]
+              },
+              {
+                "cells": [
+                  "Company"
+                ]
+              },
+              {
+                "cells": [
+                  "How To Buy"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131176000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Mainmenu Options count is 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 33
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifySubmenuItemsAreExpectedWithAmount(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10505538600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify submenu items are as Expected : from ExcelSheet",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyItemsNamesAreAsExpected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4701050500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to \"Company\" \"Leadership Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Company\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Leadership Team\"",
+                  "offset": 28
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6259300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify actual title is \"About Veeam Management Team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About Veeam Management Team\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15960300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify actualURL is \"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/management-team.html?ad\u003dmenu-company\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1001"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "MainPage Function Test",
+    "description": "",
+    "id": "mainpage-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Mainpage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-18T21:25:34.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1214082600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Successfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;successfully-filled-contact-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 431473900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2994873900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4714924300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6303700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9386900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6653986400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5225200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5494500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26259024200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill form",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Joe"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "joe.smith@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Canada"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "Manitoba"
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "Example Company"
+                ]
+              },
+              {
+                "cells": [
+                  "product",
+                  "Veeam Backup Essentials"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "I want to try a demo"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1025100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click SEND REQUEST button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_SEND_REQUEST_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1004"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:26:16.727Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1324351700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Successfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;successfully-filled-contact-form;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 407336500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2969371900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4687643700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7378500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6224400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6605963600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6307600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5202100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26177046100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill form",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Joe"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "joe.smith@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Canada"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "Ontario"
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "Example Company"
+                ]
+              },
+              {
+                "cells": [
+                  "product",
+                  "Veeam ONE"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "I want to try a demo"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1052500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click SEND REQUEST button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_SEND_REQUEST_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1004"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:26:58.937Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1342528500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Successfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;successfully-filled-contact-form;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 401371800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2916295700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4694024900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8377800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14407900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6548224600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6358400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6226600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26496674500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill form",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Joe"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "joe.smith@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "France"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "Bretagne"
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "Example Company"
+                ]
+              },
+              {
+                "cells": [
+                  "product",
+                  "Veeam Availability Suite"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "I want to try a demo"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click SEND REQUEST button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_SEND_REQUEST_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1004"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:27:41.381Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1277642800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Successfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;successfully-filled-contact-form;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 371690900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3036714100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4597349600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6665300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8432300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6596791300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4174500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3052100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26960202500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill form",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Joe"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "joe.smith@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "United States"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "Arizona"
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "Example Company"
+                ]
+              },
+              {
+                "cells": [
+                  "product",
+                  "Veeam Cloud Connect"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "I want to try a demo"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1070200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click SEND REQUEST button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_SEND_REQUEST_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1004"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:28:24.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1164622900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Successfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;successfully-filled-contact-form;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 383071100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2935517200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4789155800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12557500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6239600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6450525100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5399800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4306200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24818413300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill form",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Joe"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "joe.smith@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Singapore"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "Example Company"
+                ]
+              },
+              {
+                "cells": [
+                  "product",
+                  "Veeam Agents"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "I want to try a demo"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1055400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click SEND REQUEST button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_SEND_REQUEST_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1004"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-18T21:29:04.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1111860800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Unsuccessfully filled contact form",
+        "description": "",
+        "id": "solutions-enterprise-page-function-test;unsuccessfully-filled-contact-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 427470100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.veeam.stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3073317300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User goes to main page",
+            "match": {
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.user_goes_to_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4646599600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User navigates to \"Solutions\" \"Enterprise\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Enterprise\"",
+                  "offset": 30
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.userNavigatesTo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14596200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Verify actual title is \"Veeam Platform – protect and manage all workloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veeam Platform – protect and manage all workloads\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7347500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Verify actualURL is \"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/data-protection-platform.html?ad\u003dmenu-solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6653951200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User click contact us button",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_click_CONTACT_US_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6232400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify actual title is \"Sales Inquiry - Veeam Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sales Inquiry - Veeam Software\"",
+                  "offset": 23
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6301000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Verify actualURL is \"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.veeam.com/salesinc.html?ad\u003dplatform\"",
+                  "offset": 20
+                }
+              ],
+              "location": "net.veeam.stepdefinations.Mainpage_Defs.verifyActualURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21051114600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User not fill mandatory fields",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.user_not_fill_form(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "[blank]"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "[blank]"
+                ]
+              },
+              {
+                "cells": [
+                  "eMail",
+                  "[blank]"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "[blank]"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Canada"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "Manitoba"
+                ]
+              },
+              {
+                "cells": [
+                  "company",
+                  "[blank]"
+                ]
+              },
+              {
+                "cells": [
+                  "details",
+                  "Negative test"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 337327200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User click SEND REQUEST button for negative test",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.userClickSENDREQUESTButtonForNegativeTest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1590551300,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verify alerts are displayed",
+            "match": {
+              "location": "net.veeam.stepdefinations.Solutions_Defs.verifyAlertsAreDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@US_1005"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Solutions Enterprise Page Function Test",
+    "description": "",
+    "id": "solutions-enterprise-page-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Solutions.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
