@@ -1,7 +1,5 @@
 # VeeamDemoTests
-Created wih Cucumber Framework.
-
-Consists of 5 user stories;
+Created wih Cucumber Framework.Consists of 5 user stories;
 
 @regression
 
